@@ -49,7 +49,7 @@ child.sendline("no")
 child.expect("MrBayes >") 
 
 # Show all of the screen output
-#print child.before 
+print(child.before) 
 
 # Tell MrBayes to quit
 child.close()
